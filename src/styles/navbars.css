@@ -1,0 +1,53 @@
+.default-navbar {
+  color: #fff;
+  top: 0;
+  position: sticky;
+  right: 0;
+  left: 0;
+  z-index: 13;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.sub-nav-link .active {
+  color: #ff3f6c !important;
+}
+.header-link {
+  padding: 2px 16px !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+.nav-link-span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.dashboard-nav-link.active {
+  color: #ffff !important;
+  background: #3d7cc9 !important;
+}
+.dashboard-nav-link {
+  background: #ffff;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px 5px 0px 0px;
+  color: #3d7cc9;
+  font-family: "proxima_nova_rgbold";
+  font-size: 20px;
+  padding: 13px 70px;
+  cursor: pointer;
+}
+.dashboard-nav {
+  position: fixed;
+}
